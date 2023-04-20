@@ -6,6 +6,7 @@ use std::convert::TryFrom;
 use std::num::ParseIntError;
 use std::path::PathBuf;
 use std::str::FromStr;
+use crate::ethereum_types::U256;
 
 #[test]
 fn factorial_5() {

@@ -240,7 +240,7 @@ pub fn keccak256_rounds_function<M: Memory, const B: bool>(
     processor.execute_precompile(monotonic_cycle_counter, precompile_call_params, memory)
 }
 
-pub type Keccak256InnerState = [u64; 25];
+pub type Keccak256InnerState = [u64; 26];
 
 struct BlockBuffer {
     _buffer: [u8; 136],
